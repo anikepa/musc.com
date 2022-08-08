@@ -1,0 +1,270 @@
+   *{
+    padding:0;
+    margin:0;
+   box-sizing: border-box; 
+   font-family:gilroy;
+   text-transform: capitalize;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+#main{
+    overflow: hidden;
+    height:100vh;
+    width:100vw;
+    display: flex;
+}
+.m{
+    height:100vh;
+   width:25vw;
+   background-color:#192032;
+}
+#center{
+    height:100vh;
+    width:75vw;
+    background-color:#081a31;
+}
+.icon{
+    margin:2vh 0;
+     align-items: center;
+    display: flex;
+    justify-content: center;
+    gap:2vw;
+}
+.icon h5{
+    font-size:1.5vw;
+    color: white;
+    font-weight:100;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.b1{
+ margin-top:1vh;
+ background-color:#66b296;
+ width:15vw;
+ height:5vh;
+ border-radius:20px;
+ color: black;
+ font-size:1.2vw;
+ font-weight:400;
+
+}
+.quickacess{
+    padding:2vh 2vw;
+    display: flex;
+    flex-direction:column;
+    gap:0.5vw;
+    justify-content: center;
+    text-align: left;
+}
+.quickacess>h1{
+    color: white;
+    font-weight:300;
+    font-size:2vw;
+}
+.quickacess1{
+    display: flex;
+    padding:0 1vw;
+    gap:2vh;
+    flex-direction:column;
+    justify-content: center;
+}
+.quickacess1 h1{
+    color: white;
+    font-weight:300;
+    font-size:1.5vw;
+    text-transform: capitalize;
+}
+.bm{
+    border-bottom:2px solid white;
+}
+.left-b{
+    flex-direction: column;
+    gap:2vh;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.left-b input{
+    margin-top:1vh;
+    background-color:#66b296;
+    width:15vw;
+    height:5vh;
+    border-radius:20px;
+    color: black;
+    font-size:1.2vw;
+    font-weight:400;
+    text-align: center;
+    color: black;
+}
+.left-b img{
+    width:15vw;
+    height:13vh;
+}
+.right{
+    display:flex;
+    flex-direction: column;
+}
+.dets1 .box{
+     background-image:url(./622525-arijit-singh-110617.jpg);
+     background-position:center;
+     background-size:cover;
+    height:35px;
+    width:35px;
+    border:2px solid black;
+    border-radius:50px;
+}
+.dets1 p{
+    border:2px solid #192032 ;
+ color:white;
+ font-size:1vw;
+}
+#rbodern{
+    border:none;
+}
+.dets1
+{
+    border-bottom:1px solid black;
+    padding:2vh  3vw;
+display: flex;
+align-items:center;
+justify-content: center;
+gap:10px;
+}
+.Friend-activity {
+
+    font-size:2vw;
+ font-weight: 100;
+ margin-left:4vw;
+
+}
+.b2{
+    background-color:#66b296;
+    border-radius:20px;
+    margin:2vh 3.5vw;
+    width:12vw;
+    height:4vh;
+}
+.r-cards{
+    display:flex;
+    padding:3vh 13vw;
+    align-items: center;
+    justify-content: center;
+    gap:.5vw;
+    height:16vh;
+
+}
+.r-cards img{
+    width:8vw;
+    height:15vh;
+    
+}
+.r-cards p{
+    font-size:1.5vw;
+}
+.b4{
+    background-color:#66b296;
+    border-radius:20px;
+    margin:0.5vh 3.5vw;
+    width:8vw;
+    height:3vh;
+}
+button:hover{
+    background-color:transparent;
+}
+input:hover{
+    background-color:transparent;
+}
+#center{
+    padding:2vh 3vw;
+    overflow:auto;
+}
+#center::-webkit-scrollbar{
+    display: none;
+}
+#center nav{
+    display: flex;
+    align-items:center;
+    gap:5vw;
+  
+}
+#center input{
+     width:15vw;
+  height:4vh;
+
+   padding: 0 3vh;
+  border-radius:20px;
+    }
+    .home{
+        margin-top:2vh;
+        display:flex;
+        flex-direction: column;
+       gap:2vh;
+
+       border-bottom: 1px solid white;
+    }
+    .home h1{
+        font-size:2vw;
+        font-weight: 400;
+        color: white;
+    }
+    .home p{
+        font-size:1vw;
+        font-weight: 400;
+        color: white;
+      margin-bottom:2vh;
+    }
+    .center-card{
+        margin-top:20px;
+        height:50vh;
+        width:15vw;
+        border-radius:40px;
+        
+    }
+    .center-card-1{
+        display: flex;
+    }
+    .center-card img{
+        border:3px solid black;
+        height:25vh;
+        width:15vw;
+
+        border-radius:15px;
+    }
+    .center-card p{
+        margin:2vh 0;
+         color:white;
+         font-size:1vw;
+    }
+    .center-card h1{
+        font-size:1.52vw;
+        color:white;
+        font-weight:100;
+        margin-top:5vh;
+    }
+    .maincard{
+        display:flex;
+        gap:3vw;
+    }
+.play{
+ bottom:0vh;
+    width:56.5vw;
+    margin-left:-3vw;
+    z-index:999999999999999999;
+    background-color:#081a31;
+  
+    height:8vh;
+    position: absolute;
+}
+.play audio{
+     color:red;
+     width:57vw;
+}
+i{
+    font-size:2vw;
+}
+ 
